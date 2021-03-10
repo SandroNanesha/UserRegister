@@ -14,7 +14,7 @@ namespace UserRegister.Services
 
         List<User> UpdateInfo(User currUser);
 
-        List<User> DeleteUser(User currUser);
+        List<User> DeleteUser(string id);
 
     }
 }

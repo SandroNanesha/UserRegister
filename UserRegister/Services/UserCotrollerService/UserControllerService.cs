@@ -32,14 +32,21 @@ namespace UserRegister.Services
             }
         }
 
-        public List<User> DeleteUser(User currUser)
+        public List<User> DeleteUser(string id)
         {
             using (var context = new ApplicationDbContext())
             {
                 //No validations
-                context.profiles.Remove(currUser);
-                context.SaveChanges();
+                User currUser = context.profiles.FirstOrDefault(u => u.Id == id);
+                if(currUser != null)
+                {
+                    context.profiles.Remove(currUser);
+                    context.SaveChanges();
+                    
+                }
+
                 return context.profiles.ToList();
+
             }
         }
 

@@ -37,10 +37,10 @@ namespace UserRegister.Controllers
             return Ok(_userService.UpdateInfo(currUser));
         }
 
-        [HttpDelete]
-        public IActionResult DeleteUser(User currUser)
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser(string id)
         {
-            return Ok(_userService.DeleteUser(currUser));
+            return Ok(_userService.DeleteUser(id));
         }
 
     }
