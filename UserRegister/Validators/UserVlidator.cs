@@ -35,7 +35,7 @@ namespace UserRegister.Validators
             return true;
         }
 
-        //Returns true if and only if when user has job and has positive amount of monthly income.
+        //Returns true if user has job and has positive amount of monthly income or user doesnot have a job.
         private bool IsAcceptableSalary(User u)
         {
             float f;
