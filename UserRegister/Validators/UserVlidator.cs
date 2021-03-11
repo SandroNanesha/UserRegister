@@ -1,12 +1,11 @@
 ﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using UserRegister.Model;
 
 namespace UserRegister.Validators
 {
+    /// <summary>
+    /// This class validates several fields of User class
+    /// </summary>
     public class UserVlidator : AbstractValidator<User>
     {
         public UserVlidator()
@@ -36,6 +35,7 @@ namespace UserRegister.Validators
             return true;
         }
 
+        //Returns true if and only if when user has job and has positive amount of monthly income.
         private bool IsAcceptableSalary(User u)
         {
             float f;

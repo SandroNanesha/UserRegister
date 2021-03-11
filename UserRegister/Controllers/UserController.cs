@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using UserRegister.Model;
 using UserRegister.Services;
-using UserRegister.Validators;
 
 namespace UserRegister.Controllers
 {

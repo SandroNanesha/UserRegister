@@ -6235,23 +6235,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\giorg\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giorg\\Desktop\\curr\\UserRegister\\UserRegister\\UserRegister.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\123\\UserRegister\\UserRegister\\UserRegister.csproj",
       "projectName": "UserRegister",
-      "projectPath": "C:\\Users\\giorg\\Desktop\\curr\\UserRegister\\UserRegister\\UserRegister.csproj",
-      "packagesPath": "C:\\Users\\giorg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giorg\\Desktop\\curr\\UserRegister\\UserRegister\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\123\\UserRegister\\UserRegister\\UserRegister.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\123\\UserRegister\\UserRegister\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\giorg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6264,6 +6267,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6275,6 +6279,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentValidation.AspNetCore": {
             "target": "Package",
@@ -6335,7 +6340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

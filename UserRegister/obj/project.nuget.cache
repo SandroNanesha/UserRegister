@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oFRsotYkJUV3dwsrnVTQvVBsKjW99NvFJwMOcqcHXS84qfMgEas4nNQYa8E2FUtaSDpV3SMgQF7oZL/Kc8vASA==",
+  "dgSpecHash": "iux4c66ZIecEjMlAEI8ZRt0dc/wE0GmSSmM0ELQ2bXreJOJiyFdUsYiaJMNtjjtwghcDvbnLUC8jlIj4cXM++g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\UserRegister\\UserRegister\\UserRegister.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\123\\UserRegister\\UserRegister\\UserRegister.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.2\\fluentvalidation.aspnetcore.9.5.2.nupkg.sha512",
